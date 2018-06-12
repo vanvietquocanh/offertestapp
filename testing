@@ -1,0 +1,13 @@
+Offer Test Website
+
+
+1. 1 request -> server Quy -> response -> console.log () -> Noi Quy response cho em nhieu site driect qua
+-> handle error (server ko response, internet connection . .)
+2. Multiple requet  .. 
+  2.1 input cho user   url|os|country 
+  2.2 test async cho multiple request 
+ Output: 1 request - > 1 line -> show more 
+
+3. Front end 
+
+Workflow: ,................... 

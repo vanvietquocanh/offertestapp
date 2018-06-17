@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel='stylesheet' href='stylesheets/style.css'/>
     <script src="javascripts/testOffer.js"></script>
 </head>
-<body>
+<body style="max-width: 100%; overflow-X: hidden;">
 	<div class="row">
 		<div class="mt-5 col-sm-12">
 			<div class="row">
 				<div class="col-sm-6 mt-5 ml-auto mr-auto">
 					<div class="container">
-						<h1 class="text-center mt-5">Rocket Trafficbb</h1>
+						<h1 class="text-center mt-5">Rocket Traffic</h1>
 					  	<h2 class="text-center text-uppercase">Offers Test</h2>
 					    <div class="form-group">
 					      	<label for="link">Tracking Link:</label>
@@ -225,7 +226,7 @@
                                 <option value="ug">Uganda</option>
                                 <option value="ua">Ukraine</option>
                                 <option value="ae">United Arab Emirates</option>
-                                <option value="uk|gb">United Kingdom</option>
+                                <option value="gb">United Kingdom</option>
                                 <option value="us">United States</option>
                                 <option value="uy">Uruguay</option>
                                 <option value="uz">Uzbekistan</option>
@@ -240,11 +241,29 @@
 							</select>
 					    </div>
 					    <div class="form-group">
-					    	<button type="submit" id="btn-test" class="col-sm-12 mb-5 mr-auto ml-auto btn btn-primary">GO</button>
+					    	<button type="submit" id="btn-test" class="col-sm-12 mb-5 mr-auto ml-auto btn btn-primary" style="min-height: 25px">GO</button>
 					    </div>
-				</div>
-			</div>
-		</div>
-	</div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+          <h2>Link Redirect</h2>          
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Icon</th>
+                <th>Host</th>
+                <th>Url Redirect</th>
+              </tr>
+            </thead>
+            <tbody id="body">
+               <!--  <tr class="">
+                    <td class="text-value-intable">market</td>
+                    <td class="text-value-intable">market:///details?id=com.UCMobile.intl&referrer=utm_source%3Dminzhen%40avazuUCBrowserapi%252327895_31981_20067_9881%26utm_content%3Dclickid%253A13lu41t3219644838749cff67db853d2%253Buc_trans_1%253Aoc586ig1072n%253Bct%253A201806132209%253Bhn%253A22a8d1</td>
+                </tr> -->
+            </tbody>
+          </table>
+        </div>
+    </div>
 </body>
 </html>
